@@ -1,0 +1,7 @@
+id,first_name,last_name,email_address,status
+1,Alex,Ortiz-Rosado,alex@gmail.com,active
+,Updater,McDuplicate,updateDupe@gmail.com,active
+2,Jon,VerLee,jon@gmail.com,archived
+3,Fred,Flintstone,fredflintstone@gmail.com,active
+,Marie,Bourne,mbourne@gmail.com,active
+5,Wilma,Flintstone,wilmaflinstone@gmail.com,active

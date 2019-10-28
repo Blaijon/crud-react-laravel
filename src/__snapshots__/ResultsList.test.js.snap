@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsList /> should match the snapshot 1`] = `
+<div>
+  <div>
+    <label
+      htmlFor="peopleCSVUpload"
+    >
+      Upload a people list:
+    </label>
+    <br />
+    <br />
+    <input
+      accept="text/csv"
+      id="peopleCSVUpload"
+      name="peopleCSVUpload"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "minHeight": 40,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="groupCSVUpload"
+    >
+      Upload a group list:
+    </label>
+    <br />
+    <br />
+    <input
+      accept="text/csv"
+      id="groupCSVUpload"
+      name="groupCSVUpload"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "minHeight": 40,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    />
+  </div>
+  <Table
+    as="table"
+    celled={true}
+    id="peopleTable"
+    padded={true}
+    sortable={true}
+    style={
+      Object {
+        "marginBottom": 60,
+      }
+    }
+  >
+    <TableHeader
+      as="thead"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+      >
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          singleLine={true}
+          sorted={null}
+        >
+          First Name
+        </TableHeaderCell>
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          sorted={null}
+        >
+          Last Name
+        </TableHeaderCell>
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          sorted={null}
+        >
+          Email
+        </TableHeaderCell>
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          sorted={null}
+        >
+          Status
+        </TableHeaderCell>
+      </TableRow>
+    </TableHeader>
+    <TableBody
+      as="tbody"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+        key="0"
+      >
+        <TableCell
+          as="td"
+          singleLine={true}
+        >
+          Macie
+        </TableCell>
+        <TableCell
+          as="td"
+          singleLine={true}
+        >
+          Emmerich
+        </TableCell>
+        <TableCell
+          as="td"
+          singleLine={true}
+        >
+          cremin.marjory@hotmail.com
+        </TableCell>
+        <TableCell
+          as="td"
+          singleLine={true}
+        >
+          active
+        </TableCell>
+      </TableRow>
+    </TableBody>
+  </Table>
+  <Table
+    as="table"
+    celled={true}
+    id="groupsTable"
+    padded={true}
+    sortable={true}
+  >
+    <TableHeader
+      as="thead"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+      >
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          sorted={null}
+        >
+          Group ID
+        </TableHeaderCell>
+        <TableHeaderCell
+          as="th"
+          onClick={[Function]}
+          singleLine={true}
+          sorted={null}
+        >
+          Group Name
+        </TableHeaderCell>
+      </TableRow>
+    </TableHeader>
+    <TableBody
+      as="tbody"
+    />
+  </Table>
+</div>
+`;
